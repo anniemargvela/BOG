@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    >
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/ic_rating"
+        android:text="@string/rating"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/downloads_num_font_size"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_size"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/label_text_size"
+            android:text="@string/downloads_num"/>
+
+        <ImageView
+            android:layout_width="@dimen/label_person_icon_size"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person"
+            android:adjustViewBounds="true"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

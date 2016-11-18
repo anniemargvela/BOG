@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="action_settings">Settings</string>
+    <string name="downloads_number">1</string>
+    <string name="downloads">Downloads</string>
+    <string name="similar">Similar</string>
+    <string name="travel_local"><![CDATA[Travel & Local]]></string>
+    <string name="rating">4.3</string>
+
+
+    <string name="product_name">Maps</string>
+    <string name="app_creator_name">Google inc.</string>
+    <string name="button_uninstall">UNINSTALL</string>
+    <string name="button_open">OPEN</string>
+    <string name="app_message">Get the latest Google Maps app.</string>
+    <string name="news_text">
+        \nWHAT\'S NEW\n
+        • Easily find hours and phone numbers for large department
+        stores with new department store
+        directory in Google Maps. (US only) \n
+    </string>
+    <string name="read_more">READ MORE</string>
+    <string name="person_name">Ani Margvelashvili</string>
+    <string name="rate_offer">Rate this app</string>
+    <string name="downloads_num">5,493,032</string>
+    <string name="avg_rating">4.3</string>
+    <string name="rate_bar_text">Reviews are linked to your account and are public</string>
+    <string name="rv_highlights">REVIEW HIGHLIGHTS</string>
+    <string name="min_age">3+</string>
+</resources>

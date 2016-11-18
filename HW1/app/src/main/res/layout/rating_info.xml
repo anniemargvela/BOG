@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/rating_big"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/rating_big_text_size"
+        android:textStyle="bold"
+        android:text="@string/avg_rating"
+        android:textColor="@android:color/background_dark"
+        android:layout_marginTop="@dimen/rating_big_margin_top"
+        android:layout_marginLeft="@dimen/bottom_rating_margins"
+        android:layout_marginStart="@dimen/bottom_rating_margins" />
+
+
+    <LinearLayout
+        android:id="@+id/people_downloads_linear_bot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/rating_big"
+        android:layout_toEndOf="@id/rating_big"
+        android:layout_alignBottom="@id/rating_big"
+        android:layout_marginBottom="@dimen/downloads_num_margin_bottom"
+        android:layout_marginStart="@dimen/num_ppl_downloads_margins"
+        android:layout_marginLeft="@dimen/num_ppl_downloads_margins">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/downloads_num"
+            android:textSize="@dimen/num_ppl_downloads_text_size"/>
+
+
+        <ImageView
+            android:layout_width="@dimen/person_icon_small_bottom"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_person"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/person_icon_margins"
+            android:layout_marginStart="@dimen/person_icon_margins"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="@dimen/person_icon_margins"/>
+    </LinearLayout>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/people_downloads_linear_bot"
+        style="@style/Base.Widget.AppCompat.RatingBar.Small"
+        android:rating="@string/avg_rating"
+        android:layout_marginLeft="@dimen/num_ppl_downloads_margins"
+        android:layout_marginStart="@dimen/num_ppl_downloads_margins"
+        android:layout_toEndOf="@id/rating_big"
+        android:layout_toRightOf="@id/rating_big"
+        android:layout_alignRight="@id/people_downloads_linear_bot"
+        android:layout_alignEnd="@id/people_downloads_linear_bot" />
+
+</RelativeLayout>

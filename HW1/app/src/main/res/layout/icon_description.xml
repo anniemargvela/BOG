@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:src="@drawable/ic_maps"
+            android:layout_width="@dimen/icon_width"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:layout_margin="@dimen/icon_margins"/>
+
+        <TextView
+            android:id="@+id/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name"
+            android:layout_toEndOf="@id/app_icon"
+            android:layout_toRightOf="@id/app_icon"
+            android:layout_alignTop="@id/app_icon"
+            android:textStyle="bold"
+            android:textSize="@dimen/name_size"
+            android:textColor="@android:color/background_dark" />
+
+        <TextView
+            android:id="@+id/app_creator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_creator_name"
+            android:textStyle="normal"
+            android:layout_below="@+id/app_name"
+            android:layout_toRightOf="@+id/app_icon"
+            android:layout_toEndOf="@+id/app_icon"
+            android:layout_marginTop="@dimen/app_owner_margin_top"/>
+
+        <ImageView
+            android:layout_width="@dimen/app_creator_icon_size"
+            android:layout_height="@dimen/app_creator_icon_size"
+            android:layout_marginLeft="@dimen/app_owner_icon_margin"
+            android:layout_marginStart="@dimen/app_owner_icon_margin"
+            android:src="@drawable/thing"
+            android:layout_toEndOf="@id/app_creator"
+            android:layout_toRightOf="@id/app_creator"
+            android:layout_alignBottom="@id/app_creator"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_creator"
+            android:layout_toRightOf="@id/app_icon"
+            android:layout_toEndOf="@id/app_icon"
+            android:layout_marginTop="@dimen/min_age_margin"
+            android:padding="@dimen/min_age_padding"
+            android:text="@string/min_age"
+            android:textColor="@android:color/background_dark"
+            android:background="@drawable/black_border"/>
+
+</RelativeLayout>

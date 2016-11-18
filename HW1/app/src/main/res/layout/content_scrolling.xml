@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.annie_pc.hw1.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        tools:context="com.example.annie_pc.hw1.ScrollingActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <include layout="@layout/icon_description" />
+            <include layout="@layout/buttons" />
+
+            <include layout="@layout/line" />
+            <include layout="@layout/app_info" />
+            <include layout="@layout/line" />
+            <include layout="@layout/message" />
+            <include layout="@layout/whats_new"/>
+            <include layout="@layout/watch_readmore"/>
+            <include layout="@layout/horizontal_scroll"/>
+            <include layout="@layout/person_info"/>
+            <include layout="@layout/rate"/>
+            <include layout="@layout/line"/>
+            <include layout="@layout/rating_info"/>
+            <include layout="@layout/bottom_text"/>
+
+        </LinearLayout>
+
+</ScrollView>
+</android.support.v4.widget.NestedScrollView>

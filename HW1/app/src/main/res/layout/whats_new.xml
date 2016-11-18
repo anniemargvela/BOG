@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="@dimen/whats_new_margin_top"
+    android:background="@color/colorAccentLight">
+
+    <ImageView
+        android:layout_marginTop="@dimen/news_icon_margin_top"
+        android:layout_width="0dp"
+        android:layout_weight="0.15"
+        android:layout_height="@dimen/whats_new_icon_size"
+        android:scaleType="fitCenter"
+        android:src="@drawable/thing2"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorGreen"
+        android:textStyle="bold"
+        android:text="@string/news_text"
+        android:textSize="@dimen/whats_new_text_size"
+        android:layout_gravity="start"
+        android:lineSpacingExtra="@dimen/whats_new_line_spacing_extra"
+        android:layout_marginRight="@dimen/whats_new_margins"
+        android:layout_marginEnd="@dimen/whats_new_margins"/>
+</LinearLayout>
