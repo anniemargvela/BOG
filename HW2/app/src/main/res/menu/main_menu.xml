@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="change_view"
+        android:id="@+id/change_view"
+        android:icon="@drawable/grid_menu_type"
+        app:showAsAction="ifRoom">
+    </item>
+</menu>

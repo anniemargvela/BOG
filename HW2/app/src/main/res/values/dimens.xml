@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="grid_menu_icon_width">24dp</dimen>
+    <dimen name="grid_menu_icon_height">24dp</dimen>
+    <dimen name="delete_icon_width">24dp</dimen>
+    <dimen name="delete_icon_height">24dp</dimen>
+    <dimen name="cwd_text_size">18sp</dimen>
+    <dimen name="cwd_margin_bot">25dp</dimen>
+    <dimen name="list_view_divider_height">10dp</dimen>
+    <dimen name="grid_view_horizontal_spacing">15dp</dimen>
+    <dimen name="grid_view_vertical_spacing">20dp</dimen>
+    <dimen name="list_item_image_size">50dp</dimen>
+    <dimen name="list_item_name_margin_left">10dp</dimen>
+    <dimen name="list_item_name_text_size">15sp</dimen>
+    <dimen name="list_item_size_margin_left">10dp</dimen>
+    <dimen name="list_item_text_size">13sp</dimen>
+    <dimen name="list_item_date_text_size">12sp</dimen>
+</resources>

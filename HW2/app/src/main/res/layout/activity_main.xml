@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.annie_pc.hw2.MainActivity">
+
+    <TextView
+        android:id="@+id/cwd_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/cwd_text_size"
+        android:layout_marginBottom="@dimen/cwd_margin_bot"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:ellipsize="start"/>
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_below="@id/cwd_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/list_view_divider_height"
+        android:visibility="invisible">
+    </ListView>
+
+    <GridView
+        android:id="@+id/grid_view"
+        android:layout_below="@id/cwd_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:horizontalSpacing="@dimen/grid_view_horizontal_spacing"
+        android:verticalSpacing="@dimen/grid_view_vertical_spacing"
+        android:visibility="invisible">
+    </GridView>
+</RelativeLayout>
