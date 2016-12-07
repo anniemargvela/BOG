@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ProjectChat</string>
+    <string name="search_for_contacts">Search for contacts...</string>
+    <string name="first_name_last_name">First Name, Last Name</string>
+    <string name="telephone">+995 598 61 71 91</string>
+    <string name="status_bar_notifications">Status bar notifications</string>
+    <string name="incoming_message_sound">Incoming message sound</string>
+    <string name="title_activity_chat">ChatActivity</string>
+</resources>
